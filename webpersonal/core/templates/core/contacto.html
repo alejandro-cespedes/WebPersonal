@@ -1,0 +1,23 @@
+{% extends 'core/layout.html' %}
+
+{% block title %}Contacto{% endblock  %}
+
+
+{% block background %}{% load static %}{% static 'core/img/contact-bg.jpg' %}{% endblock  %}
+
+{% block headers %}
+    <h1>Contacto</h1>
+    <span class="subheading">Asesoría</span>
+{% endblock  %}
+    
+{% block content %}
+<div class="row">   
+    <div class="col-lg-8 col-md-10 mx-auto">
+        <p> Si prefieres enviarme un mensaje directamente desde mi sitio web, puedes llenar el formulario de contacto a continuación. Me pondré en contacto contigo lo antes posible.</p>
+        <br>
+        <p><b>Correo:</b> alejandroc3001@gmail.com</p>
+        <p><b>Teléfono:</b> +51 967 653 300</p>
+        <p><b>Honorarios:</b> 60€/h (precio base)</p>
+    </div>
+</div>
+{% endblock %}

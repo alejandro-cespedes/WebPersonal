@@ -1,0 +1,24 @@
+{% extends 'core/layout.html' %}
+
+{% block title %}About{% endblock  %}
+
+
+{% block background %}{% load static %}{% static 'core/img/about-bg.jpg' %}{% endblock  %}
+
+{% block headers %}
+    <h1>Acerca de</h1>
+    <span class="subheading">Biografía</span>
+{% endblock  %}
+
+{% block content %}
+<div class="row">   
+  <div class="col-lg-3 col-md-4 offset-lg-1">
+    <img class="img-fluid avatar" src="{% static 'core/img/avatar.jpg' %} " alt="">
+  </div>
+  <div class="col-lg-7 col-md-8">
+    <h2 class="section-heading">Alejandro Cespedes</h2>   
+    <p>Soy un estudiante preprofesional de ingeniería de computación y sistemas, apasionado por aprender y aplicar la tecnología para resolver problemas del mundo real</p>
+    <p>Actualmente estoy en mi noveno ciclo de la carrera de ingeniería de computación y sistemas en la Universidad Nacional. He adquirido habilidades en programación, análisis de datos y diseño de sistemas durante mi carrera.</p>
+  </div>
+</div>
+{% endblock %}
